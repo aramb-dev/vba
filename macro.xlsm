@@ -18,138 +18,266 @@ Sub ARAAAAAMMMM()
     Selection.Font.Bold = True
     With Selection.Font
         .Name = "Calibri"
-        Application.Wait (Now + TimeValue("0:00:10"))
+        
+        Application.Wait (Now + TimeValue("0:00:10")
+        
         .Size = 16
+        Application.Wait (Now + TimeValue("0:00:10")
+        
         .Strikethrough = False
+    Application.Wait (Now + TimeValue("0:00:10")
         .Superscript = False
+    Application.Wait (Now + TimeValue("0:00:10")
         .Subscript = False
+    Application.Wait (Now + TimeValue("0:00:10")
         .OutlineFont = False
+    Application.Wait (Now + TimeValue("0:00:10")
         .Shadow = False
+    Application.Wait (Now + TimeValue("0:00:10")
         .Underline = xlUnderlineStyleNone
+    Application.Wait (Now + TimeValue("0:00:10")
         .Color = -16776961
+    Application.Wait (Now + TimeValue("0:00:10")
         .TintAndShade = 0
+    Application.Wait (Now + TimeValue("0:00:10")
         .ThemeFont = xlThemeFontMinor
+    Application.Wait (Now + TimeValue("0:00:10")
     End With
+    Application.Wait (Now + TimeValue("0:00:10")
     Columns("A:A").ColumnWidth = 101
+    Application.Wait (Now + TimeValue("0:00:10")
     Range("A3").Select
+    Application.Wait (Now + TimeValue("0:00:10")
     With Selection.Font
+    Application.Wait (Now + TimeValue("0:00:10")
         .Color = -16776961
+    Application.Wait (Now + TimeValue("0:00:10")
         .TintAndShade = 0
+    Application.Wait (Now + TimeValue("0:00:10")
     End With
+    Application.Wait (Now + TimeValue("0:00:10")
     Selection.Font.Bold = True
+    Application.Wait (Now + TimeValue("0:00:10")
     Selection.Font.Size = 12
+    Application.Wait (Now + TimeValue("0:00:10")
     Selection.Font.Size = 14
+    Application.Wait (Now + TimeValue("0:00:10")
     Selection.Font.Size = 16
+    Application.Wait (Now + TimeValue("0:00:10")
     Range("A4").Select
+    Application.Wait (Now + TimeValue("0:00:10")
     ActiveCell.FormulaR1C1 = "Now, lets copy and paste."
+    Application.Wait (Now + TimeValue("0:00:10")
     Range("A4").Select
+    Application.Wait (Now + TimeValue("0:00:10")
     With Selection.Font
+    Application.Wait (Now + TimeValue("0:00:10")
         .Color = -16776961
+    Application.Wait (Now + TimeValue("0:00:10")
         .TintAndShade = 0
+    Application.Wait (Now + TimeValue("0:00:10")
     End With
+    Application.Wait (Now + TimeValue("0:00:10")
     Selection.Font.Bold = True
+    Application.Wait (Now + TimeValue("0:00:10")
     Selection.Font.Size = 12
+    Application.Wait (Now + TimeValue("0:00:10")
     With Selection.Font
+    Application.Wait (Now + TimeValue("0:00:10")
         .Name = "Calibri"
+    Application.Wait (Now + TimeValue("0:00:10")
         .Size = 16
+    Application.Wait (Now + TimeValue("0:00:10")
         .Strikethrough = False
+    Application.Wait (Now + TimeValue("0:00:10")
         .Superscript = False
+    Application.Wait (Now + TimeValue("0:00:10")
         .Subscript = False
+    Application.Wait (Now + TimeValue("0:00:10")
         .OutlineFont = False
+    Application.Wait (Now + TimeValue("0:00:10")
         .Shadow = False
+    Application.Wait (Now + TimeValue("0:00:10")
         .Underline = xlUnderlineStyleNone
+    Application.Wait (Now + TimeValue("0:00:10")
         .Color = -16776961
+    Application.Wait (Now + TimeValue("0:00:10")
         .TintAndShade = 0
+    Application.Wait (Now + TimeValue("0:00:10")
         .ThemeFont = xlThemeFontMinor
+    Application.Wait (Now + TimeValue("0:00:10")
     End With
+    Application.Wait (Now + TimeValue("0:00:10")
     Selection.Copy
+    Application.Wait (Now + TimeValue("0:00:10")
     Range("A7").Select
+    Application.Wait (Now + TimeValue("0:00:10")
     ActiveSheet.Paste
+    Application.Wait (Now + TimeValue("0:00:10")
     Range("A7,A10").Select
+    Application.Wait (Now + TimeValue("0:00:10")
     Range("A10").Activate
+    Application.Wait (Now + TimeValue("0:00:10")
     ActiveSheet.Paste
+    Application.Wait (Now + TimeValue("0:00:10")
     Range("A15").Select
+    Application.Wait (Now + TimeValue("0:00:10")
     ActiveSheet.Paste
+    Application.Wait (Now + TimeValue("0:00:10")
     Range( _
         "A15,A20,B19,C6,D17,C23,A27,A24,E25,G14,H4,E2,B5,C10,A7,F10,C14,A9,A13,A12,A11,A30,E29,G26,G22,F18,E14,D10,E8,H6" _
         ).Select
+    Application.Wait (Now + TimeValue("0:00:10")
     Range("H6").Activate
+    Application.Wait (Now + TimeValue("0:00:10")
     ActiveSheet.Paste
+    Application.Wait (Now + TimeValue("0:00:10")
     Range("A3").Select
+    Application.Wait (Now + TimeValue("0:00:10")
     Application.CutCopyMode = False
+    Application.Wait (Now + TimeValue("0:00:10")
     Selection.Copy
+    Application.Wait (Now + TimeValue("0:00:10")
     Range( _
         "A4,A7,A9,A10,A11,A12,A14,A15,A20,A24,E2,D5,B5,C6,E8,C10,D10,F10,C14,E14,G14,D17,F18,B19,C23,E25,G26,G22" _
         ).Select
+    Application.Wait (Now + TimeValue("0:00:10")
     Range("G22").Activate
+    Application.Wait (Now + TimeValue("0:00:10")
     ActiveSheet.Paste
+    Application.Wait (Now + TimeValue("0:00:10")
     Range( _
         "A4,A7,A9,A10,A11,A12,A14,A15,A20,A24,E2,D5,B5,C6,E8,C10,D10,F10,C14,E14,G14,D17,F18,B19,C23,E25,G26,G22,A13" _
         ).Select
+    Application.Wait (Now + TimeValue("0:00:10")
     Range("A13").Activate
+    Application.Wait (Now + TimeValue("0:00:10")
     ActiveSheet.Paste
+    Application.Wait (Now + TimeValue("0:00:10")
     Range("A6").Select
+    Application.Wait (Now + TimeValue("0:00:10")
     Application.CutCopyMode = False
+    Application.Wait (Now + TimeValue("0:00:10")
     ActiveCell.FormulaR1C1 = "We are FINISHED!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    Application.Wait (Now + TimeValue("0:00:10")
     Range("D13").Select
+    Application.Wait (Now + TimeValue("0:00:10")
     ActiveCell.FormulaR1C1 = "Thanks"
+    Application.Wait (Now + TimeValue("0:00:10")
     Selection.AutoFill Destination:=Range("D13:D21"), Type:=xlFillDefault
+    Application.Wait (Now + TimeValue("0:00:10")
     Range("D13:D21").Select
+    Application.Wait (Now + TimeValue("0:00:10")
     With Selection.Font
+    Application.Wait (Now + TimeValue("0:00:10")
         .Color = -16776961
+    Application.Wait (Now + TimeValue("0:00:10")
         .TintAndShade = 0
+    Application.Wait (Now + TimeValue("0:00:10")
     End With
+    Application.Wait (Now + TimeValue("0:00:10")
     Selection.Font.Size = 12
+    Application.Wait (Now + TimeValue("0:00:10")
     Selection.Font.Size = 14
+    Application.Wait (Now + TimeValue("0:00:10")
     Selection.Font.Size = 16
+    Application.Wait (Now + TimeValue("0:00:10")
     Selection.Font.Bold = True
+    Application.Wait (Now + TimeValue("0:00:10")
     Selection.Copy
+    Application.Wait (Now + TimeValue("0:00:10")
     Range("A1:F2").Select
+    Application.Wait (Now + TimeValue("0:00:10")
     ActiveSheet.Paste
+    Application.Wait (Now + TimeValue("0:00:10")
     Application.CutCopyMode = False
+    Application.Wait (Now + TimeValue("0:00:10")
     Selection.AutoFill Destination:=Range("A1:M9"), Type:=xlFillDefault
+    Application.Wait (Now + TimeValue("0:00:10")
     Range("A1:M9").Select
+    Application.Wait (Now + TimeValue("0:00:10")
     Selection.AutoFill Destination:=Range("A1:M31"), Type:=xlFillDefault
+    Application.Wait (Now + TimeValue("0:00:10")
     Range("A1:M31").Select
+    Application.Wait (Now + TimeValue("0:00:10")
     ActiveWindow.ScrollColumn = 1
+    Application.Wait (Now + TimeValue("0:00:10")
     Range("A7:A8").Select
+    Application.Wait (Now + TimeValue("0:00:10")
     ActiveWindow.SmallScroll Down:=54
+    Application.Wait (Now + TimeValue("0:00:10")
     Range("A66").Select
+    Application.Wait (Now + TimeValue("0:00:10")
     ActiveWindow.SmallScroll Down:=-90
+    Application.Wait (Now + TimeValue("0:00:10")
     Range("A1").Select
+    Application.Wait (Now + TimeValue("0:00:10")
     ActiveCell.FormulaR1C1 = "I will clear now!!!!"
+    Application.Wait (Now + TimeValue("0:00:10")
     Cells.Select
+    Application.Wait (Now + TimeValue("0:00:10")
     Selection.ClearFormats
+    Application.Wait (Now + TimeValue("0:00:10")
     Selection.ClearComments
+    Application.Wait (Now + TimeValue("0:00:10")
     Selection.ClearHyperlinks
+    Application.Wait (Now + TimeValue("0:00:10")
     Selection.Clear
+    Application.Wait (Now + TimeValue("0:00:10")
     Range("A1").Select
+    Application.Wait (Now + TimeValue("0:00:10")
     ActiveCell.FormulaR1C1 = "Thanks"
+    Application.Wait (Now + TimeValue("0:00:10")
     Range("A1").Select
+    Application.Wait (Now + TimeValue("0:00:10")
     Selection.Copy
+    Application.Wait (Now + TimeValue("0:00:10")
     Cells.Select
+    Application.Wait (Now + TimeValue("0:00:10")
     Application.CutCopyMode = False
+    Application.Wait (Now + TimeValue("0:00:10")
     Range("A1:O44").Select
+    Application.Wait (Now + TimeValue("0:00:10")
     ActiveWindow.ScrollColumn = 3
+    Application.Wait (Now + TimeValue("0:00:10")
     ActiveWindow.ScrollColumn = 2
+    Application.Wait (Now + TimeValue("0:00:10")
     ActiveWindow.ScrollColumn = 1
+    Application.Wait (Now + TimeValue("0:00:10")
     ActiveWindow.ScrollRow = 11
+    Application.Wait (Now + TimeValue("0:00:10")
     ActiveWindow.ScrollRow = 10
+    Application.Wait (Now + TimeValue("0:00:10")
     ActiveWindow.ScrollRow = 9
+    Application.Wait (Now + TimeValue("0:00:10")
     ActiveWindow.ScrollRow = 8
+    Application.Wait (Now + TimeValue("0:00:10")
     ActiveWindow.ScrollRow = 7
+    Application.Wait (Now + TimeValue("0:00:10")
     ActiveWindow.ScrollRow = 6
+    Application.Wait (Now + TimeValue("0:00:10")
     ActiveWindow.ScrollRow = 5
+    Application.Wait (Now + TimeValue("0:00:10")
     ActiveWindow.ScrollRow = 4
+    Application.Wait (Now + TimeValue("0:00:10")
     ActiveWindow.ScrollRow = 3
+    Application.Wait (Now + TimeValue("0:00:10")
     ActiveWindow.ScrollRow = 2
+    Application.Wait (Now + TimeValue("0:00:10")
     ActiveWindow.ScrollRow = 1
+    Application.Wait (Now + TimeValue("0:00:10")
     With Selection.Interior
+    Application.Wait (Now + TimeValue("0:00:10")
         .Pattern = xlSolid
+    Application.Wait (Now + TimeValue("0:00:10")
         .PatternColorIndex = xlAutomatic
+    Application.Wait (Now + TimeValue("0:00:10")
         .Color = 255
+    Application.Wait (Now + TimeValue("0:00:10")
         .TintAndShade = 0
+    Application.Wait (Now + TimeValue("0:00:10")
         .PatternTintAndShade = 0
+    Application.Wait (Now + TimeValue("0:00:10")
     End With
     Selection.Borders(xlDiagonalDown).LineStyle = xlNone
     Selection.Borders(xlDiagonalUp).LineStyle = xlNone
