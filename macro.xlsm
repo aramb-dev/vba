@@ -1,0 +1,398 @@
+Sub ARAAAAAMMMM()
+'
+' ARAAAAAMMMM Macro
+'
+' Keyboard Shortcut: Ctrl+w
+'
+    ActiveCell.FormulaR1C1 = _
+        "Aram Services is running a macro right now. Please listen as you see us doing this."
+    Range("A3").Select
+    ActiveCell.FormulaR1C1 = "I will format right now!!!"
+    Range("A2").Select
+    Application.Wait (Now + TimeValue("0:00:10"))
+    With Selection.Font
+        .Color = -16776961
+        .TintAndShade = 0
+        Application.Wait (Now + TimeValue("0:00:10"))
+    End With
+    Selection.Font.Bold = True
+    With Selection.Font
+        .Name = "Calibri"
+        Application.Wait (Now + TimeValue("0:00:10"))
+        .Size = 16
+        .Strikethrough = False
+        .Superscript = False
+        .Subscript = False
+        .OutlineFont = False
+        .Shadow = False
+        .Underline = xlUnderlineStyleNone
+        .Color = -16776961
+        .TintAndShade = 0
+        .ThemeFont = xlThemeFontMinor
+    End With
+    Columns("A:A").ColumnWidth = 101
+    Range("A3").Select
+    With Selection.Font
+        .Color = -16776961
+        .TintAndShade = 0
+    End With
+    Selection.Font.Bold = True
+    Selection.Font.Size = 12
+    Selection.Font.Size = 14
+    Selection.Font.Size = 16
+    Range("A4").Select
+    ActiveCell.FormulaR1C1 = "Now, lets copy and paste."
+    Range("A4").Select
+    With Selection.Font
+        .Color = -16776961
+        .TintAndShade = 0
+    End With
+    Selection.Font.Bold = True
+    Selection.Font.Size = 12
+    With Selection.Font
+        .Name = "Calibri"
+        .Size = 16
+        .Strikethrough = False
+        .Superscript = False
+        .Subscript = False
+        .OutlineFont = False
+        .Shadow = False
+        .Underline = xlUnderlineStyleNone
+        .Color = -16776961
+        .TintAndShade = 0
+        .ThemeFont = xlThemeFontMinor
+    End With
+    Selection.Copy
+    Range("A7").Select
+    ActiveSheet.Paste
+    Range("A7,A10").Select
+    Range("A10").Activate
+    ActiveSheet.Paste
+    Range("A15").Select
+    ActiveSheet.Paste
+    Range( _
+        "A15,A20,B19,C6,D17,C23,A27,A24,E25,G14,H4,E2,B5,C10,A7,F10,C14,A9,A13,A12,A11,A30,E29,G26,G22,F18,E14,D10,E8,H6" _
+        ).Select
+    Range("H6").Activate
+    ActiveSheet.Paste
+    Range("A3").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range( _
+        "A4,A7,A9,A10,A11,A12,A14,A15,A20,A24,E2,D5,B5,C6,E8,C10,D10,F10,C14,E14,G14,D17,F18,B19,C23,E25,G26,G22" _
+        ).Select
+    Range("G22").Activate
+    ActiveSheet.Paste
+    Range( _
+        "A4,A7,A9,A10,A11,A12,A14,A15,A20,A24,E2,D5,B5,C6,E8,C10,D10,F10,C14,E14,G14,D17,F18,B19,C23,E25,G26,G22,A13" _
+        ).Select
+    Range("A13").Activate
+    ActiveSheet.Paste
+    Range("A6").Select
+    Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = "We are FINISHED!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    Range("D13").Select
+    ActiveCell.FormulaR1C1 = "Thanks"
+    Selection.AutoFill Destination:=Range("D13:D21"), Type:=xlFillDefault
+    Range("D13:D21").Select
+    With Selection.Font
+        .Color = -16776961
+        .TintAndShade = 0
+    End With
+    Selection.Font.Size = 12
+    Selection.Font.Size = 14
+    Selection.Font.Size = 16
+    Selection.Font.Bold = True
+    Selection.Copy
+    Range("A1:F2").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+    Selection.AutoFill Destination:=Range("A1:M9"), Type:=xlFillDefault
+    Range("A1:M9").Select
+    Selection.AutoFill Destination:=Range("A1:M31"), Type:=xlFillDefault
+    Range("A1:M31").Select
+    ActiveWindow.ScrollColumn = 1
+    Range("A7:A8").Select
+    ActiveWindow.SmallScroll Down:=54
+    Range("A66").Select
+    ActiveWindow.SmallScroll Down:=-90
+    Range("A1").Select
+    ActiveCell.FormulaR1C1 = "I will clear now!!!!"
+    Cells.Select
+    Selection.ClearFormats
+    Selection.ClearComments
+    Selection.ClearHyperlinks
+    Selection.Clear
+    Range("A1").Select
+    ActiveCell.FormulaR1C1 = "Thanks"
+    Range("A1").Select
+    Selection.Copy
+    Cells.Select
+    Application.CutCopyMode = False
+    Range("A1:O44").Select
+    ActiveWindow.ScrollColumn = 3
+    ActiveWindow.ScrollColumn = 2
+    ActiveWindow.ScrollColumn = 1
+    ActiveWindow.ScrollRow = 11
+    ActiveWindow.ScrollRow = 10
+    ActiveWindow.ScrollRow = 9
+    ActiveWindow.ScrollRow = 8
+    ActiveWindow.ScrollRow = 7
+    ActiveWindow.ScrollRow = 6
+    ActiveWindow.ScrollRow = 5
+    ActiveWindow.ScrollRow = 4
+    ActiveWindow.ScrollRow = 3
+    ActiveWindow.ScrollRow = 2
+    ActiveWindow.ScrollRow = 1
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 255
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Selection.Borders(xlDiagonalDown).LineStyle = xlNone
+    Selection.Borders(xlDiagonalUp).LineStyle = xlNone
+    Selection.Borders(xlEdgeLeft).LineStyle = xlNone
+    Selection.Borders(xlEdgeTop).LineStyle = xlNone
+    With Selection.Borders(xlEdgeBottom)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    Selection.Borders(xlEdgeRight).LineStyle = xlNone
+    Selection.Borders(xlInsideVertical).LineStyle = xlNone
+    Selection.Borders(xlInsideHorizontal).LineStyle = xlNone
+    Selection.Borders(xlDiagonalDown).LineStyle = xlNone
+    Selection.Borders(xlDiagonalUp).LineStyle = xlNone
+    With Selection.Borders(xlEdgeLeft)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeTop)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeBottom)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeRight)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlInsideVertical)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlInsideHorizontal)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    Range("A1").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Range(Selection, Selection.End(xlToRight)).Select
+    Range("A4:G34").Select
+    Selection.Borders(xlDiagonalDown).LineStyle = xlNone
+    Selection.Borders(xlDiagonalUp).LineStyle = xlNone
+    With Selection.Borders(xlEdgeLeft)
+        .LineStyle = xlDouble
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThick
+    End With
+    With Selection.Borders(xlEdgeTop)
+        .LineStyle = xlDouble
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThick
+    End With
+    With Selection.Borders(xlEdgeBottom)
+        .LineStyle = xlDouble
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThick
+    End With
+    With Selection.Borders(xlEdgeRight)
+        .LineStyle = xlDouble
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThick
+    End With
+    With Selection.Borders(xlInsideVertical)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlInsideHorizontal)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    Range("A1").Select
+    Selection.Borders(xlDiagonalDown).LineStyle = xlNone
+    Selection.Borders(xlDiagonalUp).LineStyle = xlNone
+    With Selection.Borders(xlEdgeLeft)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeTop)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeBottom)
+        .LineStyle = xlDouble
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThick
+    End With
+    With Selection.Borders(xlEdgeRight)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    Selection.Borders(xlInsideVertical).LineStyle = xlNone
+    Selection.Borders(xlInsideHorizontal).LineStyle = xlNone
+    Range("A1").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Range(Selection, Selection.End(xlToRight)).Select
+    ActiveWindow.ScrollRow = 2
+    ActiveWindow.ScrollRow = 3
+    ActiveWindow.ScrollRow = 4
+    ActiveWindow.ScrollRow = 5
+    ActiveWindow.ScrollRow = 6
+    ActiveWindow.ScrollRow = 7
+    ActiveWindow.ScrollRow = 8
+    ActiveWindow.ScrollRow = 9
+    ActiveWindow.ScrollRow = 10
+    ActiveWindow.ScrollRow = 9
+    ActiveWindow.ScrollRow = 8
+    ActiveWindow.ScrollRow = 7
+    ActiveWindow.ScrollRow = 6
+    ActiveWindow.ScrollRow = 5
+    ActiveWindow.ScrollRow = 4
+    ActiveWindow.ScrollRow = 3
+    ActiveWindow.ScrollRow = 2
+    ActiveWindow.ScrollRow = 1
+    ActiveWindow.SmallScroll Down:=-54
+    With Selection.Interior
+        .PatternColorIndex = xlAutomatic
+        .Color = 255
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 255
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 255
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 255
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 255
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 255
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 255
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    With Selection.Font
+        .Color = -16776961
+        .TintAndShade = 0
+    End With
+    With Selection.Font
+        .Color = -16776961
+        .TintAndShade = 0
+    End With
+    With Selection.Font
+        .Color = -16776961
+        .TintAndShade = 0
+    End With
+    With Selection.Font
+        .Color = -16776961
+        .TintAndShade = 0
+    End With
+    With Selection.Font
+        .Color = -16776961
+        .TintAndShade = 0
+    End With
+    With Selection.Font
+        .Color = -16776961
+        .TintAndShade = 0
+    End With
+    With Selection.Font
+        .ThemeColor = xlThemeColorDark1
+        .TintAndShade = 0
+    End With
+    With Selection.Font
+        .ThemeColor = xlThemeColorDark1
+        .TintAndShade = 0
+    End With
+    Selection.Font.Bold = True
+    Selection.Font.Size = 12
+    Selection.Font.Size = 14
+    Selection.Font.Size = 16
+    Selection.Font.Size = 18
+    Selection.Font.Size = 20
+    Selection.Font.Size = 22
+    Selection.Font.Size = 24
+    Selection.Font.Size = 26
+    Selection.Font.Size = 28
+    Selection.Font.Size = 36
+    Selection.Font.Size = 48
+    Selection.Font.Size = 72
+    Range("A2").Select
+    ActiveCell.FormulaR1C1 = "BYEE!"
+    Range("A5").Select
+    Selection.Clear
+    Cells.Select
+    Selection.Clear
+    Range("A13").Select
+End Sub
